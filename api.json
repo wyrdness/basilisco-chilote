@@ -1,0 +1,50 @@
+{
+  "category": "MYTHOLOGICAL_CREATURE",
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/basilisco-chilote",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+  "phenomenon": {
+    "id": "basilisco-chilote",
+    "name": "Basilisco Chilote",
+    "aliases": [
+      {
+        "name": "Basilisk of Chilo\u00e9"
+      },
+      {
+        "name": "Chilean Basilisk",
+        "region": "Chile"
+      },
+      {
+        "name": "Basilisk Chilote",
+        "region": "Chile"
+      }
+    ],
+    "category": "MYTHOLOGICAL_CREATURE",
+    "subcategory": "Hybrid creature",
+    "tags": [
+      "mythological",
+      "creature",
+      "hybrid",
+      "legendary"
+    ],
+    "status": "documented",
+    "description": {
+      "summary": "Legendary bird-snake hybrid from Chilote mythology that guards treasures and brings destruction",
+      "full": "Legendary bird-snake hybrid from Chilote mythology that guards treasures and brings destruction"
+    }
+  }
+}
