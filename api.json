@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-08",
     "repository": "https://github.com/wyrdness/basilisco-chilote",
     "maintainers": [
       {
@@ -16,72 +16,133 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "basilisco-chilote",
     "name": "Basilisco Chilote",
-    "aliases": [],
-    "category": "MYTHOLOGICAL_CREATURE",
-    "subcategory": "Hybrid creature",
-    "tags": [
-      "folklore",
-      "mythology"
+    "aliases": [
+      { "name": "Athrathrao", "language": "Mapudungun / Chilote", "region": "Chiloé Archipelago, Chile", "meaning": "The infant form of the Basilisco Chilote — a small, fuzzy creature hatched from the rooster's egg, before it develops its full serpentine body" },
+      { "name": "El Basilisco", "language": "Spanish", "region": "Chiloé Archipelago, Chile", "meaning": "The basilisk — the Chilote name combining the European basilisk with local mythological elements" }
     ],
-    "status": "documented",
+    "category": "MYTHOLOGICAL_CREATURE",
+    "subcategory": "Hybrid serpent-bird creature / household parasite",
+    "tags": [
+      "chilote-mythology",
+      "south-america",
+      "chile",
+      "mapuche",
+      "serpent",
+      "rooster",
+      "hybrid",
+      "parasitic",
+      "supernatural"
+    ],
+    "status": "active",
     "description": {
-      "summary": "Legendary bird-snake hybrid from Chilote mythology that guards treasures and brings destruction This phenomenon represents an important part of Chilote folklore and cultural heritage, with documented accounts and traditions spanning generations.",
-      "full": "Legendary bird-snake hybrid from Chilote mythology that guards treasures and brings destruction This phenomenon represents an important part of Chilote folklore and cultural heritage, with documented accounts and traditions spanning generations."
+      "summary": "The Basilisco Chilote is a creature from Chilote mythology of the Chiloé Archipelago in southern Chile — a rooster-serpent hybrid born from an egg laid by an old rooster, which takes up residence beneath a house and slowly drains the life of its inhabitants.",
+      "full": "The Basilisco Chilote is a supernatural creature from the mythology of the Chiloé Archipelago in southern Chile. According to the tradition, it hatches from a small black egg laid not by a hen but by an old male rooster — an impossible birth attributed to demonic or supernatural forces. The infant creature (called the Athrathrao) is small and fuzzy. As it matures, it develops the characteristic hybrid form: the crest of a rooster atop the body of a serpent. The creature digs a hole beneath the house where it was born and takes up permanent residence there. Its method of predation is parasitic rather than directly violent: it creeps into the rooms of sleeping inhabitants and siphons their vital essence — absorbing their breath, phlegm, saliva, and in some accounts their soul — night after night. The victims gradually waste away, suffering symptoms resembling severe dehydration or wasting disease, until they die. The Basilisco Chilote is understood as a synthesis of three mythological traditions: the European basilisk and cockatrice (brought to Chile by Spanish colonizers), and the Colo Colo — a malevolent creature from Mapuche mythology that similarly lives beneath houses and feeds on the saliva of sleeping residents. The only known countermeasure once the creature has hatched is to burn down the house entirely. Prevention requires burning the egg immediately upon its impossible discovery."
     },
     "etymology": {
-      "origin": "| Chilote |",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "'Basilisco' is Spanish for basilisk, derived from Latin 'basiliscus' and Greek 'basiliskos' (little king), referring to the European basilisk myth. 'Chilote' designates its origin in Chilote mythology of the Chiloé Archipelago. The creature represents a syncretism of Spanish colonial Catholic demonology with indigenous Mapuche supernatural tradition.",
+      "meaning": "The Chiloé basilisk — a local version of the basilisk myth fused with Mapuche Colo Colo tradition.",
+      "first_use": "Documented in Chilean folklore scholarship; exact first written record not established in sources consulted"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "MYTHOLOGICAL_CREATURE",
-      "type": "Hybrid creature",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Hybrid serpent-bird creature",
+      "subtype": "Household parasite / life-drain predator",
+      "variant": "Chilote (Chiloé Archipelago, Chile)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "colo-colo", "name": "Colo Colo", "relationship": "related", "description": "Mapuche creature that lives beneath houses and feeds on sleeping inhabitants' saliva; the primary indigenous ancestor of the Basilisco Chilote" },
+      { "id": "basilisk", "name": "Basilisk", "relationship": "related", "description": "European reptilian monster whose deadly gaze the Basilisco Chilote partially shares; brought to Chile by Spanish colonizers" },
+      { "id": "cockatrice", "name": "Cockatrice", "relationship": "related", "description": "European rooster-serpent hybrid hatched from a rooster's egg; the direct European antecedent of the Basilisco Chilote's birth narrative" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["dark", "scaled (serpentine body)", "feathered crest (rooster-like)"],
+      "features": [
+        { "feature": "Rooster crest", "description": "The creature bears the distinctive comb/crest of a rooster on its head, retained from its origin as the offspring of a rooster", "frequency": "always" },
+        { "feature": "Serpentine body", "description": "The body is that of a snake — scaled, elongated, and capable of burrowing", "frequency": "always" },
+        { "feature": "Glowing eyes", "description": "The creature's eyes glow; in adult form, a direct look into its eyes is said to cause instant cardiac arrest from supernatural terror", "frequency": "always" },
+        { "feature": "Burrowing ability", "description": "Digs a hole beneath the floor of the house it inhabits; lives underground beneath the structure", "frequency": "always" }
+      ],
+      "morphology": "A hybrid creature combining the crest and beak-like features of a rooster with the scaled, elongated body of a serpent. In its juvenile 'Athrathrao' form, it is described as small and fuzzy. The adult form is larger and clearly serpentine with a rooster's crest."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Vital essence drain", "description": "The creature's primary method of predation: it creeps nightly into the rooms of sleeping inhabitants and absorbs their breath, saliva, phlegm, and soul, causing progressive wasting", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Death gaze", "description": "A direct look into the adult creature's eyes is said to cause immediate cardiac arrest from supernatural terror", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Burrowing and concealment", "description": "Lives in a burrow beneath the house, concealed from direct discovery", "frequency": "always", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["beneath the floors of inhabited houses", "Chiloé Archipelago rural dwellings"],
+      "diet": "Breath, saliva, phlegm, and vital essence of sleeping human inhabitants",
+      "patterns": [
+        "Remains concealed beneath the house during daylight hours",
+        "Enters sleeping inhabitants' rooms at night to feed",
+        "Feeds repeatedly on the same victims until they die",
+        "Establishes permanent residence in one house"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "| Chilote |",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "The Basilisco Chilote legend is specific to the Chiloé Archipelago in the Los Lagos region of southern Chile. It is embedded in Chilote culture, which developed in relative isolation from the mainland during the colonial period, producing a distinctive mythology that blends Mapuche (Huilliche and Mapuche) indigenous traditions with Spanish Catholic folk belief.",
+      "continents": ["South America"],
+      "countries": ["Chile"],
+      "regions": [
+        "Chiloé Archipelago",
+        "Los Lagos Region",
+        "Southern Chile"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Chiloé Archipelago",
+        "location": {
+          "description": "Island archipelago in the Los Lagos Region of southern Chile",
+          "country": "Chile",
+          "region": "Los Lagos",
+          "coordinates": { "latitude": -42.6, "longitude": -73.9 }
+        },
+        "notes": "The entire Chiloé Archipelago is the cultural homeland of Chilote mythology; the Basilisco Chilote is specific to this region's tradition"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Pre-contact",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Indigenous Mapuche / Huilliche Colo Colo tradition predates Spanish colonization; the syncretic Basilisco Chilote form developed after Spanish contact"
+      },
+      "peak_activity_periods": [
+        { "period": "Colonial period to present", "description": "The Chilote mythology, including the Basilisco Chilote, crystallized during the Spanish colonial period as indigenous and European traditions merged" }
+      ],
+      "seasonal_patterns": "No documented seasonal pattern"
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "| Chilote |",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "The Basilisco Chilote represents a cultural synthesis unique to the Chiloé Archipelago. The creature draws on two distinct traditions: (1) the Mapuche (specifically Huilliche) Colo Colo, which is a household monster feeding on inhabitants' saliva; and (2) the European cockatrice and basilisk — rooster-serpent hybrids hatched from rooster eggs — introduced by Spanish colonizers. The isolation of the Chiloé Archipelago during the colonial period (Chiloé was among the last Spanish holdings in South America) allowed these traditions to merge into a distinctively Chilote creature.",
+      "earliest_accounts": "The exact dating of the earliest written account of the Basilisco Chilote as a syncretic creature is not established in the sources consulted. The underlying Mapuche Colo Colo tradition predates Spanish contact.",
+      "folklore_connections": "Related to the broader tradition of household monsters across many cultures: creatures that live within the domestic space and prey on sleeping inhabitants. Parallels include the Old Hag / sleep paralysis demon traditions, various European house spirits, and the Mapuche Colo Colo."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "Pre-contact", "event": "Mapuche/Huilliche Colo Colo tradition established in the Chiloé region — a creature living beneath houses and feeding on sleeping inhabitants' saliva", "significance": "Indigenous ancestral tradition that contributed the household-parasite motif to the Basilisco Chilote", "source": "Mapuche/Huilliche oral tradition" },
+      { "date": "1600-01-01", "event": "Spanish colonization of Chiloé establishes European basilisk and cockatrice traditions through missionaries, literature, and folk belief", "significance": "Introduces the rooster-egg birth narrative and serpent-rooster hybrid morphology to Chiloé", "source": "History of Spanish colonization of Chiloé" }
+    ],
+    "modern_era": "The Basilisco Chilote remains part of living Chilote folk tradition. Chilote mythology as a whole — including the Basilisco Chilote, the Trauco, the Pincoya, and the Invunche — has received increasing scholarly attention and has become part of regional cultural identity and tourism. Chilean ethnographers and folklorists have documented these traditions in academic and popular works."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +153,107 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": []
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Genuine supernatural household predator (Chilote folk belief)",
+        "description": "Within the Chilote folk tradition, the Basilisco Chilote is understood as a real supernatural entity capable of causing fatal wasting disease in inhabitants of affected households. The belief informs protective practices such as immediate burning of any egg found laid by a rooster.",
+        "proponents": ["Chilote folk tradition"],
+        "evidence_cited": ["Wasting illness in household members attributed to Basilisco presence", "Folk protective practices (burning the egg, burning the house) taken seriously in traditional communities"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Disease etiology in folk narrative",
+        "description": "The Basilisco Chilote's mechanism of causing wasting disease through absorption of saliva and breath may represent a folk explanation for the spread of contagious illness (tuberculosis, respiratory diseases) in close-quartered households. The creature's parasitic feeding on saliva and breath maps onto contagion routes for infectious disease.",
+        "proponents": ["Medical anthropology perspective"],
+        "evidence_cited": ["Correspondence between Basilisco symptoms (wasting, respiratory failure) and tuberculosis or other wasting infectious diseases", "Household transmission routes identical to creature's method"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Syncretic folk narrative (no biological basis)",
+        "description": "The Basilisco Chilote is a product of cultural syncretism — the merging of European and indigenous mythological elements during the colonial period. It has no biological basis; roosters cannot lay eggs and no serpentine household creature feeding on human breath has been documented.",
+        "proponents": ["Folklorists and anthropologists studying Chilote mythology"],
+        "evidence_cited": ["Documented mythological genealogy: European cockatrice + Mapuche Colo Colo", "Biological impossibility of rooster egg-laying", "No physical specimen or remains ever documented"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Chilote mythology of the Chiloé Archipelago",
+        "Mapuche/Huilliche Colo Colo tradition (indigenous ancestor)",
+        "Spanish colonial cockatrice and basilisk tradition (European ancestor)"
+      ],
+      "stories": [
+        "The discovery and burning of a rooster egg to prevent the hatching of a Basilisco",
+        "Victims of the Basilisco found progressively wasting — dehydrated, weak, and hollow-eyed — until they die",
+        "The only cure once a Basilisco is established: burn down the house entirely"
+      ],
+      "beliefs": "Within traditional Chilote communities, the Basilisco Chilote is part of a living mythological system. Chilote mythology encompasses a rich set of supernatural beings (Trauco, Pincoya, Invunche, Camahueto) that govern different aspects of the natural and social world. These traditions reflect the distinctive cultural synthesis of Chiloé's isolated colonial history."
+    },
+    "indigenous": {
+      "cultures": ["Huilliche (Mapuche of Chiloé)", "Mapuche"],
+      "significance": "The Colo Colo ancestor of the Basilisco Chilote is an indigenous Mapuche supernatural being with significance in the broader Mapuche cosmological system. The syncretic Basilisco Chilote reflects the cultural hybridity of Chiloé, where Mapuche and Spanish traditions merged over centuries of relatively isolated coexistence.",
+      "sensitivity_note": "Chilote mythology is a living tradition that represents an important form of regional cultural heritage. The indigenous elements should not be treated as mere ingredients in a European mythological recipe; the Mapuche Colo Colo tradition has its own independent significance.",
+      "respect_guidelines": "Distinguish between the indigenous Colo Colo tradition and the syncretic Basilisco Chilote when relevant. Engage with Chilean and Mapuche scholarly sources when available."
     },
     "popular_culture": {
-      "literature": [],
+      "literature": [
+        "Oscar Martinez Vilches, 'Chiloe Misterioso' — Chilean ethnographic documentation of Chilote mythology",
+        "Juan Mancilla Pérez, work on Chilote magic and mythology (2006)"
+      ],
       "film_tv": [],
       "games": [],
-      "other": []
+      "other": [
+        "Chilote mythology, including the Basilisco Chilote, is a component of regional tourism and cultural identity in the Chiloé Archipelago"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Oscar Martinez Vilches", "affiliation": "Chilean folklorist", "contribution": "Documentation of Chilote mythology including the Basilisco Chilote in 'Chiloe Misterioso'", "period": "20th century" },
+      { "name": "Juan Mancilla Pérez", "affiliation": "Chilean researcher", "contribution": "Work on Chilote magic and mythology (2006)", "period": "2006" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Chilote mythology continues to be documented by Chilean folklorists and anthropologists. The mythology has attracted increasing international academic attention as a case study in colonial cultural syncretism."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-basilisco-chilote",
+      "type": "website",
+      "title": "Basilisco Chilote",
+      "url": "https://en.wikipedia.org/wiki/Basilisco_Chilote",
+      "accessed": "2026-05-08"
+    },
+    {
+      "id": "martinez-vilches",
+      "type": "book",
+      "title": "Chiloe Misterioso",
+      "authors": ["Oscar Martinez Vilches"],
+      "notes": "Chilean ethnographic documentation of Chilote mythology; publication date not confirmed in sources consulted"
+    },
+    {
+      "id": "mancilla-perez-2006",
+      "type": "book",
+      "title": "Work on Chilote magic and mythology",
+      "authors": ["Juan Mancilla Pérez"],
+      "date": "2006",
+      "notes": "Full title not confirmed in sources consulted; cited in Wikipedia's Basilisco Chilote article"
+    }
+  ]
 }
